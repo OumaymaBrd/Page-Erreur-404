@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404. That’s an error.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background like Google's */
+    color: #5f6368; /* Subtle gray text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff; /* White background for the content area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+}
+
+/* Heading */
+h1 {
+    font-size: 24px; /* Slightly larger than regular text */
+    color: #202124; /* Darker gray for the header */
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    color: #5f6368; /* Lighter gray text */
+    line-height: 1.5;
+}
+
+/* Highlighted URL */
+p span {
+    font-family: monospace;
+    color: #d93025; /* Red error text for the URL (like Google) */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404. That’s an error.</h1>
+        <p>The requested URL <span>/your-page</span> was not found on this server. That’s all we know.</p>
+    </div>
+</body>
+</html>
+
